@@ -22,6 +22,7 @@ while(run == True):
     print("Press 1 to train a new model")
     print("Press 2 to load the model")
     print("Press 3 to make predictions")
+    print("Press 4 to exit")
 
     operation = input("Your choice:")
 
@@ -41,3 +42,5 @@ while(run == True):
         else:
              image = unet_model.predict(prepareImage())
              plt.imshow(image)
+    elif operation == '4':
+        run = False
