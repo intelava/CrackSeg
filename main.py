@@ -31,7 +31,7 @@ while(run == True):
         unet_model = createAndTrain(train,validation)
 
     elif operation == '2':
-        unet_model = tf.keras.models.load_model()
+        unet_model = tf.keras.models.load_model('/loaded')
 
     elif operation == '3':
         try:
