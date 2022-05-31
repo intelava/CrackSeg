@@ -9,4 +9,4 @@ You can read the blog post of the project from [here](https://www.binamod.com/po
 
 
 ## Update Notes
-2 new directory: loaded and predict. Now you can load your own model or predict the image with ease. Just move your model or image to corresponding directory!
+- 2 new directory: loaded and predict. Now you can load your own model or predict the image with ease. Just move your model or image to corresponding directory!
